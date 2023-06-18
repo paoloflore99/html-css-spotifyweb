@@ -2,6 +2,13 @@
     .main-content-conteiner{
         
     }
+
+    .control-playlis,
+    .row {
+        flex-wrap: wrap;
+    }
+
+
 }
 
 @media screen and (max-width: 700px) {
@@ -9,6 +16,12 @@
     .main-content-conteiner{
         
     }
+
+    .control-playlis {
+        width: 50px;
+    }
+    
+
 }
 
 @media screen and (max-width: 600px) {
@@ -85,6 +98,7 @@ body > *  {
     width: 220px;
     height: 260px;
     font-size: 12px;
+    border: 1px solid black;
 }
 
 h4 {
