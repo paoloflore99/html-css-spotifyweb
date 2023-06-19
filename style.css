@@ -35,6 +35,12 @@
 
     }
 
+    .modulare {
+        display: none;
+        
+    }
+
+
 }
 
 
@@ -49,11 +55,10 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    color: rgb(131, 131, 131);
 }
 
 body > *  {
-    min-height: 150px;
-    min-width: 100px;
     border: 1px solid black;
 }
 
@@ -71,6 +76,15 @@ body > *  {
     display: flex;
     
 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+}
+
+a:hover {
+    color: white;
 }
 /* corpo paggina */
 
@@ -104,10 +118,16 @@ body > *  {
 h4 {
     font-size: 15px;
 }
+
 img {
     width: 200px;
     height: 200px;
 }
+
+.img-rotonda {
+    border-radius: 50%;
+}
+
 /* barra laterale detsra */
 
 .control-playlis {
@@ -123,6 +143,8 @@ h1 {
 
 .control-upgrade {
     background-color: rgb(38, 35, 35);
+    display: flex;
+    justify-content: flex-end;
 }
 
 .button-upgrade {
@@ -131,10 +153,43 @@ h1 {
     color: white;
     padding: 0.5rem;
     border-radius: 1rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
 .control-music {
     background-color: rgb(46, 45, 45);
+    min-height: 50px;
     /* da dare una minima altezza e levarla alle altre , da fare per ultima cosa */
 }
+
+.tipologgie-musica {
+    padding: 1rem;
+}
+
+
+/*   barra sotto */ 
+
+.control-music {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.control-music-2 {
+    display: flex;
+    padding-left: 1rem;
+    
+}
+
+.img-inferiore {
+    width: 57px;
+    height: 57px;
+}
+
+.control-music-4 {
+    display: flex;
+}
+
